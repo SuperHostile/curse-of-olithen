@@ -1,0 +1,36 @@
+(E) - Indicates things for the main engine
+High priority
+  GUI tiles in map
+  Leveling up system (E)
+    The player and enemies have xp and level attributes.
+    The enemy has a given_xp attribute
+    Everytime the player kills an enemy, he receives xp depending on the enemy level and the given_xp attribute of said enemy.
+    Upgrade tree
+  Class system (E)
+    Roguelite talent tree
+
+Medium priority
+  In-game console system (E)
+  Add getters and setters for important attributes like health (E) - wut?
+  Craftable spell system
+  Configuration system (E)
+  Make engine moddable (E)
+  
+Low priority
+  Comment everything a little bit more
+  Clean up cmath.lua
+  Create proper GUI depth (E)
+  Log system (E)
+  Crafting system (E)
+  Make every function like this:
+    function some_function(player, x, y)
+      player.x = y
+    end
+  instead of this:
+    function some_function(x, y)
+      global_player.x = y
+    end
+
+DONE:   Wrap up GUI into modular usable classes (E)
+
+Balance everything when finished lol

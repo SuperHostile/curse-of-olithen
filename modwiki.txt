@@ -1,0 +1,19 @@
+Font is 04b03 - Free for non commercial use.
+
+item_instantiation -> 
+  quantity -> How much of this items is in the slot
+  id -> Name of how the item is recognized in game
+  dungeon_level -> The level of the dungeon the item was obtained in
+  stats -> All of the stats of the item
+  stat_changes -> The stat variations the item has gotten
+  rarity -> Instantiated from the produce_rarity function
+    name
+    color of the rarity
+    weight 
+    index of the rarity in the data array
+
+The inventory of a player (player.inventory)  is an array of item_instantiation from the produce_item function.
+The equipped_slots array contains player_equipped_slot, from the function with the same name:
+  fill -> Does the slot have an item?
+  
+API FUNCTIONS
